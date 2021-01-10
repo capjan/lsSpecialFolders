@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "lsSpecialFolders": {
+      "commandName": "Project",
+      "commandLineArgs": "-cs"
+    }
+  }
+}
