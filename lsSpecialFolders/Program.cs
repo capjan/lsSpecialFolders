@@ -1,20 +1,14 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
-using Core.Diagnostics.Impl;
 using Core.Enums;
-using Core.Environment;
 using Core.Environment.OperatingSystemInfoImpl;
 
-
-namespace ConsoleApp1
+namespace lsSpecialFolders
 {
-    class Program
+    internal static class Program
     {
-
-        
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var osInfo = new OperatingSystemInfo();
 
