@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using Core.Enums;
@@ -26,7 +25,7 @@ namespace lsSpecialFolders
                 // do your critical task here
                 Execute(options);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // the parser instance provides a possibility to 
                 // write the usage at a later program stage if needed
@@ -38,10 +37,7 @@ namespace lsSpecialFolders
 
         private static void Execute(Options options)
         {
-
             var osInfo = new OperatingSystemInfo();
-
-            
             Console.WriteLine($"OS: {osInfo}");
             
             Console.WriteLine();
