@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Cap.Core" Version="5.0.1" />
+      <PackageReference Include="Cap.Core" Version="6.1.0" />
     </ItemGroup>
 
 </Project>
